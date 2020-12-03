@@ -1,0 +1,82 @@
+Test file
+
+Testing Git commands and repository. 
+
+# GIT
+
+Git is a distributed version control system or source code management system
+Git was designed by the same developer who developed Linux Kernel
+Git is a free software distributed under GNU license
+
+
+# Git vs GitHub
+Git is an actual version control system which we can use to track the project history, manage the different version of the application
+
+GitHub is just a cloud service provider which provide some space where we can upload our project source code and collaborate with other by sharing the code base there are other vendor who offer the same service like bitBucket, GitHub etc.
+
+
+# Version Control System (VCS)
+It is a software that help software developer to work together and maintain a complete history of their work
+
+> Allows developers to work simantenously
+> Prevent overwriting each other changes
+> Maintain a history of every version
+
+
+# Type of version control system
+- Centralized version control system
+- Distributed / Decentralised version control system
+
+# Centralised version control system
+It used a central server to store all of the file ands folder and enable the team to collaborate. But the major draw back of CVCS is its single point of failure. In that case if the central server goes down for an hour the during that time no one can collaborate with each other. If that central server got corrupted or broken then you will lose the entire history of the project
+
+
+# Distributed version control system
+In this we not only checkout the latest snapshot of the directory but we will take full mirror image of thr respository. If the server goes down then the repository from any client can be copied back to the server
+
+Git also using distributed version control system
+Git does not really on central server as it may perform many operation when you are offline you can commit, add, creature branch, view logs and perform all other operation even when your offline and we need network connection only to publish your changes
+
+
+# Advantages of GIT
+> Free and open source - it is freely available over the internet which means you can download and start using git for free to manage your project code
+
+> Fast
+As most of the operation perform locally it is huge benefit in terms of speed 
+The core part of the git in written in C which avoid any runtime overhead associated with other high level language
+
+> Implicit backup
+The chances of loosing data are very rare when you have multiple copies of it. Dara present on any disk can be use for restoring purpose
+
+> Security
+Git uses a common cryptographic hash function called SHA1 to name and identity objects within its database
+
+> No Powerful hardware
+In case of centralise version the central server needs to be powerful enough to serve request of the entire team. In case of distributed version developer don't interact with the server unless they need to push or pull changes
+
+> Branches
+It is very easy to create branches in distributed version control
+Centralise version control generally follow the copy mechanism where we first create a folder in which we will copy all the code files
+
+
+Untracked state
+Staged
+tracked
+
+
+# General Command
+> git --version
+
+> git config --list
+> git config --global user.name
+> git config --global user.name "<new name>"
+> git config --global user.email
+> git config --global user.email "<new email>"
+
+> git init
+> git add <file name>
+> git add .
+> git add -A
+> git rm --cache <file_name>
+
+> git commit -m "<commit message>"
