@@ -81,6 +81,7 @@ tracked
 
 > git commit -m "<commit message>"  
 
+<<<<<<< Updated upstream
 
 # Git Log
 > git log
@@ -114,3 +115,6 @@ tracked
 
 Ofili keyword test to see git log
 
+=======
+Ofili test to see git log
+>>>>>>> Stashed changes
